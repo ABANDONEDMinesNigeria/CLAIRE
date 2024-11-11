@@ -20,14 +20,14 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder-GH 
+title: COLONIAL LAND ACQUISITION AND INDIGENOUS RESISTANCE OF ENUGU COAL FIELDS, 1915-2004-GH 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: Exploring power, land, and indigenous resilence in the face of colonial expansion.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "This Project examines the interactions between colonial authorities and indigenous communities in Enugu and Udi during land acquisition for government projects in early 20th-century Nigeria. Focusing on compensation demands, legal disputes, and the enduring resistance of local chiefs, this study reveals the complexities of land ownership, cultural preservation, and administrative influence within the colonial framework."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Uzoamaka Nwachukwu
 
 ##########
 # COLLECTION SETTINGS
@@ -40,10 +40,10 @@ metadata: demo-metadata
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #
-# organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-# organization-link: https://cdil.lib.uidaho.edu/
-# organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-# organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+# organization-name: "History Department, Indiana University"
+# organization-link: https://history.indiana.edu/graduate/index.html
+# organization-logo-banner: https://www.iu.edu/brand/design/logo-and-marks/index.html
+# organization-logo-nav: https://www.iu.edu/brand/design/logo-and-marks/index.html
 
 ##########
 # ROBOTS EXCLUDE
