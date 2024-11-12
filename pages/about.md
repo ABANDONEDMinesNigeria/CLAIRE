@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid=  /objects/025_Onyeama%20Mines.png %}
+{% include feature/jumbotron.html objectid=  [/objects/025_Onyeama%20Mines.png](https://github.com/ABANDONEDMinesNigeria/NATIVE-PETITIONS-AGAINST-LAND-DISPOSSESSION-OF-ENUGU-COAL-FIELDS/blob/main/objects/024_Coal%20at%20Onyeama%20Mines%20Enugu.png) %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
