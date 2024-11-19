@@ -1,6 +1,11 @@
-[013_Time Line.csv.csv](https://github.com/user-attachments/files/17809515/013_Time.Line.csv.csv)
-### Tables
-[Uploading 013_Time,Topic,Government Claim,Native  Claims,Description of Native Claim,Description of Native Claim,Native Actors,Colonial/Post-Colonial Actors,Locations Named,Latitude,Longitude,Media ,Archive
+---
+title: Timeline
+layout: timeline
+permalink: /timeline.html
+# a timeline visualization will be added below the content in this file
+---
+
+## Collection Timeline[CLAIRE_013_Time Line.csv.csv](https://github.com/user-attachments/files/17815955/CLAIRE_013_Time.Line.csv.csv),Topic,Government Claim,Native  Claims,Description of Native Claim,Description of Native Claim,Native Actors,Colonial/Post-Colonial Actors,Locations Named,Latitude,Longitude,Media ,Archive
 1906,Crown Land Ordinance,1,0,Chiefs unaware of the implications of land ordinances,Enabled controlled acquisition of native lands,,British Secretary of State for Colonies,"Southern Nigeria Secretariat, Lagos",6.45043,3.39046,"Annual Report of the Colonies, Southern Nigeria, 1906",University of Ilinois Repository
 1909,Discovery of Coal at Udi,1,0,Indigenes disconnected from the survey,Identified promising coal deposits,,Mineral Survey Team (Kiston),"Udi, Enugu",6.43096,7.47905,Annual report 1910 (Southern Nigeria) ,University of Ilinois Repository
 1910,Udi Patrol,1,1,"Native communities conquered, forced to sign treaties",Suppressed local unrest,Udi Communities,"Military Patrol, Colonial Government","Udi, Enugu",6.424155,7.408175,"Annual Report of the Colonies, Southern Nigeria, 1911",University of Ilinois Repository
@@ -34,17 +39,5 @@ Chief Nnaji Nwagu-Ngwo Amadi (Free born)",Resident Officer,"Crown Land, Awbia Se
 1951,Petition for Land Redistribution,2,2,Local communities demanded land reallocation,Government maintained ownership of retained Crown Lands,"Emene Chiefs, Nike chiefs, Resident Officer",Senior Resident,Ngwo,6.4756,7.5077,Crown Land - Google Drive,"National Archives, Enugu Nigeria, Crown Lands_Enugu Crown Lands"
 1999,Privatization of Coal Mines,3,2,Communities feared dispossession,Government privatized coal mines,"Enugu Residents and Community, Federal Government",Federal Government,Enugu,6.43096,7.47905,"Umejesi, Ikechukwu. “Coal Sector Revitalization, Community Memory, and the Land Question in Nigeria: A Paradox of Economic Diversification?” *African Studies Quarterly*, vol. 10, no. 1, 2010, pp. n. pag. Print.",
 2004,Coal Mines Concession,2,1,Communities filed injunction against eviction,Mines concessioned to Indian firm,"Enugu Residents and Community, Federal Government",Global Infrastructure Inc.,Enugu,6.43096,7.47905,"Umejesi, Ikechukwu. “Coal Sector Revitalization, Community Memory, and the Land Question in Nigeria: A Paradox of Economic Diversification?” *African Studies Quarterly*, vol. 10, no. 1, 2010, pp. n. pag. Print.",
- Line.csv.csv…]()
-
-![image](https://github.com/user-attachments/assets/e1e1216d-a5be-4b75-9b6c-4844beb84325)
 
 
-![image](https://github.com/user-attachments/assets/4547d05b-baf3-457e-9520-241230582a12)
----
-title: Timeline
-layout: timeline
-permalink: /timeline.html
-# a timeline visualization will be added below the content in this file
----
-
-## Collection Timeline
