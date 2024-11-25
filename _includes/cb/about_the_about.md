@@ -32,15 +32,14 @@ The template provides includes to pull your collection objects and metadata into
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
-#### Include a PDF
+#### Include a TXT
+- TXT -- > `{% raw %}{% include feature/txt.html objectid="demo_027"  width="50" %}{% endraw %}`
 
-- PDF -- > `{% raw %}{% include feature/pdf.html objectid="demo_002"  width="50" %}{% endraw %}`
-
-{% include feature/pdf.html objectid=pdfsampleid width="50" %}
+{% include feature/txt.html objectid=txtsampleid width="50" %}
 
 #### Include a Video
 
-- Video: `{% raw %}{% include feature/video.html objectid="demo_004" %}{% endraw %}`
+- Video: `{% raw %}{% include feature/video.html objectid="demo_049" %}{% endraw %}`
 
 {% include feature/video.html objectid=videosampleid width="75" %}
 
