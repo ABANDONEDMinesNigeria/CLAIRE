@@ -2,7 +2,7 @@
 2,title,Title,,
 3,creator,Author,TRUE,
 4,translator,Translator,TRUE,
-5,date,Cordinate To;From, Date,,
+5,date,To, From, Date,,
 6,publisher,Publisher,,
 7,location,Place of Publication,,
 8,year,Year,,
