@@ -1,9 +1,17 @@
-display_name,stub,dropdown_parent
-Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Locations,/locations.html
-Map,/map.html
-Timeline,/timeline.html
-Data,/data.html
-About,/about.html
+1,display_name,stub,dropdown_parent
+2,Home,/,
+3,Browse,/browse.html,
+4,Subjects,/subjects.html,
+5,Timeline,/timeline.html,
+6,Data,/data.html,
+7,About,,
+8,About the collection,/about.html,About
+9,People,/people.html,About
+10,Technical documentation,/technical.html,About
+11,Explore the series,,
+12,Historical context,,
+13,Advertising,/advertising.html,Historical context
+14,Publishing circumstances,/publishing.html,Historical context
+15,Reading public,/readers.html,Historical context
+16,Bibliography,/bibliography.html,
+17,Related resources,/resources.html,

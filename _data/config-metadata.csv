@@ -1,15 +1,18 @@
-field,display_name,browse_link,external_link
-title,Title,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+1,field,display_name,browse_link,external_link
+2,title,Title,,
+3,creator,Author,TRUE,
+4,translator,Translator,TRUE,
+5,date,Publication Date,,
+6,publisher,Publisher,,
+7,location,Place of Publication,,
+8,series,Series,TRUE,
+9,year,Year,,
+10,number,Number,,
+11,price,Price,,
+12,pages,Pages,,
+13,dimensions,Dimensions,,
+14,language,Language,,
+15,source,Source,,
+16,identifier,Source Identifier,,
+17,rights,Rights,,
+18,rightsstatement,Rights Statement,TRUE,TRUE

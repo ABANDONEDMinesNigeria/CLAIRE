@@ -1,5 +1,5 @@
-field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+1,field,display_name,btn,hidden,sort_name
+2,date,Date,,,Date
+3,creator,Author,TRUE,,Author
+4,series,Series,TRUE,,Series
+5,location,Location,TRUE,,Location
