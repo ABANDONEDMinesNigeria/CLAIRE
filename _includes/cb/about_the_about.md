@@ -9,7 +9,7 @@
 
 ## About the About Page
 
-We want to make engaging interpretive pages easier to create, so CollectionBuilder gives you tools to write *with* your collection content!
+This collection captures the intertwined narratives of colonial land dispossession and Indigenous resistance in Eastern Nigeria, particularly in coal mining regions. Maps like the 1961 Town Plan of Enugu depict how Indigenous lands were restructured into colonial administrative zones, prioritizing industrial and political interests. A transcription of petitions and colonial correspondence on land dispossession and land rights claims reveals the determined efforts of Indigenous communities to contest the expropriation of their ancestral lands. These documents detail resistance strategies, including formal complaints, collective demands for restitution, and assertions of customary land ownership. Photographs of mining sites and laborers complement the textual records, illustrating the lived realities of dispossession and the environmental impacts of colonial extraction. Together, the collection showcases Indigenous resilience and agency in the face of systemic exploitation, shedding light on broader themes of colonial injustice and the fight for land rights!
 
 The template comes with a customizable "About" page layout designed for long form content with rich media embeds.
 Content is written in [Markdown](https://guides.github.com/features/mastering-markdown/) and enhanced using "includes" that pull in collection content, external media, and [Bootstrap](https://getbootstrap.com/) features like cards and modals.
@@ -17,10 +17,6 @@ We hope this makes it easier for site builders to develop the collection AND add
 
 Each "include" file has several options, which are documented in the files themselves--copy the examples to see how it works with your content! 
 In the demo below, we've given display widths of 25% and 50% to save space, but you can feature the entire image or document.
-
-You can also see a page featuring [a bonanza of feature includes options](https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html) on our CollectionBuilder-GH demo site. 
-
-{% include feature/button.html text="Feature *Includes* Bonanza page" link="https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html" color="primary" size="lg" centered=true %}
 
 ### Include Collection Items
 
@@ -32,15 +28,15 @@ The template provides includes to pull your collection objects and metadata into
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
-#### Include a PDF
+#### Include a TXT
 
-- PDF -- > `{% raw %}{% include feature/pdf.html objectid="demo_002"  width="50" %}{% endraw %}`
+- TXT -- > `{% raw %}{% include feature/txt.html objectid="CLAIRE_027_1922_Petition From Enugu Chiefs.txt"  width="50" %}{% endraw %}`
 
-{% include feature/pdf.html objectid=pdfsampleid width="50" %}
+{% include feature/txt.html objectid=pdfsampleid width="50" %}
 
 #### Include a Video
 
-- Video: `{% raw %}{% include feature/video.html objectid="demo_004" %}{% endraw %}`
+- Video: `{% raw %}{% include feature/video.html objectid="CLAIRE_049_MINERS QUARTERS.mp4" %}{% endraw %}`
 
 {% include feature/video.html objectid=videosampleid width="75" %}
 
