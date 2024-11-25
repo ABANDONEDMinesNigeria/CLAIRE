@@ -1,5 +1,4 @@
 1,field,display_name,btn,hidden,sort_name
 2,date,Date,,,Date
 3,creator,Author,TRUE,,Author
-4,series,Series,TRUE,,Series
-5,location,Coordinates From; To,TRUE,,Location
+4,location,Coordinates From; To,TRUE,,Location
