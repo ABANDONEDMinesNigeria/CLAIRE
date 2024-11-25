@@ -9,6 +9,8 @@
 
 ## About the About Page
 
+This collection captures the intertwined narratives of colonial land dispossession and Indigenous resistance in Eastern Nigeria, particularly in coal mining regions. Maps like the 1961 Town Plan of Enugu depict how Indigenous lands were restructured into colonial administrative zones, prioritizing industrial and political interests. A transcription of petitions and colonial correspondence on land dispossession and land rights claims reveals the determined efforts of Indigenous communities to contest the expropriation of their ancestral lands. These documents detail resistance strategies, including formal complaints, collective demands for restitution, and assertions of customary land ownership. Photographs of mining sites and laborers complement the textual records, illustrating the lived realities of dispossession and the environmental impacts of colonial extraction. Together, the collection showcases Indigenous resilience and agency in the face of systemic exploitation, shedding light on broader themes of colonial injustice and the fight for land rights.
+
 We want to make engaging interpretive pages easier to create, so CollectionBuilder gives you tools to write *with* your collection content!
 
 The template comes with a customizable "About" page layout designed for long form content with rich media embeds.
@@ -32,15 +34,15 @@ The template provides includes to pull your collection objects and metadata into
 
 {% include feature/image.html objectid=imagesampleid width="75" %}
 
-#### Include a PDF
+#### Include a TXT
 
-- PDF -- > `{% raw %}{% include feature/pdf.html objectid="demo_002"  width="50" %}{% endraw %}`
+- TXT -- > `{% raw %}{% include feature/txt.html objectid="demo_027"  width="50" %}{% endraw %}`
 
-{% include feature/pdf.html objectid=pdfsampleid width="50" %}
+{% include feature/txt.html objectid=pdfsampleid width="50" %}
 
 #### Include a Video
 
-- Video: `{% raw %}{% include feature/video.html objectid="demo_004" %}{% endraw %}`
+- Video: `{% raw %}{% include feature/video.html objectid="demo_049" %}{% endraw %}`
 
 {% include feature/video.html objectid=videosampleid width="75" %}
 
