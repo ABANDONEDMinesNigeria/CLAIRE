@@ -2,9 +2,9 @@
 2,title,Title,,
 3,creator,Author,TRUE,
 4,translator,Translator,TRUE,
-5,date,location, Date,,
+5,date,location, Date,
 6,publisher,Publisher,,
-7,location,Place of Publication,,
+7,location,Place of Publication
 8,year,Year,,
 9,dimensions,Dimensions,,
 10,language,Language,,
