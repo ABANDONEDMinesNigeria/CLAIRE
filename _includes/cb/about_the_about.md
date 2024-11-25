@@ -40,7 +40,7 @@ The template provides includes to pull your collection objects and metadata into
 
 #### Include a Video
 
-- Video: `{% raw %}{% include feature/video.html objectid="demo_004" %}{% endraw %}`
+- Video: `{% raw %}{% include feature/video.html objectid="demo_049" %}{% endraw %}`
 
 {% include feature/video.html objectid=videosampleid width="75" %}
 
