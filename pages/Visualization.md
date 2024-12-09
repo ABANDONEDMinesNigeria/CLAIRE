@@ -4,76 +4,133 @@ layout: about
 permalink: /visualizations.html
 ---
 
----
-title: Visualizations
-layout: about
-permalink: /visualizations.html
----
-
----
-title: Visualizations
-layout: about
-permalink: /visualizations.html
----
+<style>
+  .visualization-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .text-content {
+    flex: 1;
+  }
+  .iframe-container {
+    flex: 1;
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+  }
+</style>
 
 # Visualizations
 
 ## Interactive Word Cloud
 
-[View Interactive Visualization](objects/Interactive_Word_Cloud.html)
-
-<iframe src="objects/Interactive_Word_Cloud.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    The Interactive Word Cloud presents a frequency analysis of terms extracted from archival records on colonial and native land claims. By transforming historical records into actionable data, the visualization highlights dominant themes and patterns.
+    <br>
+    [View Interactive Visualization](objects/Interactive_Word_Cloud.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/Interactive_Word_Cloud.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Colonial Land Policies and Community Responses in Enugu: An Interactive Chronology
 
-[View Interactive Visualization](objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html)
-
-<iframe src="objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    The interactive timeline explores historical interactions between colonial governance and indigenous communities in Southeastern Nigeria, focusing on land management, policies, and resistance.
+    <br>
+    [View Interactive Visualization](objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Interactive Topic Model
 
-[View Interactive Visualization](objects/001_CLAIRE_interactive_topic_model.html)
-
-<iframe src="objects/001_CLAIRE_interactive_topic_model.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    This model visualizes latent themes in archival documents using topic modeling (LDA), offering a structured view of major themes such as governance, land management, and socio-economic dynamics.
+    <br>
+    [View Interactive Visualization](objects/001_CLAIRE_interactive_topic_model.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/001_CLAIRE_interactive_topic_model.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Interactive Topic Table
 
-[View Interactive Visualization](objects/003_CLAIRE_Interactive_Topic_Table.html)
-
-<iframe src="objects/003_CLAIRE_Interactive_Topic_Table.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    The Interactive Topic Table organizes and displays keywords and topics extracted from archival petitions, offering insights into recurring themes in land claims and disputes.
+    <br>
+    [View Interactive Visualization](objects/003_CLAIRE_Interactive_Topic_Table.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/003_CLAIRE_Interactive_Topic_Table.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Network Visualization of Topics
 
-[View Interactive Visualization](objects/004_CLAIRE_highlight_relationship_network.html)
-
-<iframe src="objects/004_CLAIRE_highlight_relationship_network.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    This network visualization represents relationships between topics, helping users understand the thematic structures and interconnections in archival data.
+    <br>
+    [View Interactive Visualization](objects/004_CLAIRE_highlight_relationship_network.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/004_CLAIRE_highlight_relationship_network.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Claims Frequency Visualization
 
-[View Interactive Visualization](objects/005_CLAIRE_claims_frequency_visualization.html)
-
-<iframe src="objects/005_CLAIRE_claims_frequency_visualization.html" width="800" height="600" style="border:none;"></iframe>
+<div class="visualization-container">
+  <div class="text-content">
+    The bar chart compares the frequency of colonial versus native land claims by topic, illustrating patterns of land disputes and governance.
+    <br>
+    [View Interactive Visualization](objects/005_CLAIRE_claims_frequency_visualization.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/005_CLAIRE_claims_frequency_visualization.html"></iframe>
+  </div>
+</div>
 
 ---
 
 ## Topic Frequency Heat Map
 
-[View Interactive Visualization](objects/Interactive_Topic_Frequency_Heat_Map.html)
+<div class="visualization-container">
+  <div class="text-content">
+    The heat map visualizes the frequency distribution of topics across archival documents, offering a detailed view of thematic density.
+    <br>
+    [View Interactive Visualization](objects/Interactive_Topic_Frequency_Heat_Map.html)
+  </div>
+  <div class="iframe-container">
+    <iframe src="objects/Interactive_Topic_Frequency_Heat_Map.html"></iframe>
+  </div>
+</div>
 
-<iframe src="objects/Interactive_Topic_Frequency_Heat_Map.html" width="800" height="600" style="border:none;"></iframe>
-
-
-# Visualizations
+---
 
 ## Interactive Word Cloud
 
