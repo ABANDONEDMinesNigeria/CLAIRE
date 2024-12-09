@@ -36,7 +36,7 @@ permalink: /visualizations.html
     [View Interactive Visualization](objects/Interactive_Word_Cloud.html)
   </div>
   <div class="iframe-container">
-    <iframe src="objects/Interactive_Word_Cloud.html"></iframe>
+    <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html"></iframe>
   </div>
 </div>
 
@@ -126,7 +126,7 @@ permalink: /visualizations.html
     [View Interactive Visualization](objects/Interactive_Topic_Frequency_Heat_Map.html)
   </div>
   <div class="iframe-container">
-    <iframe src="objects/Interactive_Topic_Frequency_Heat_Map.html"></iframe>
+    <iframe src="objects/008_CLAIRE_Interactive_Topic_Frequency_Heat_Map.html"></iframe>
   </div>
 </div>
 
