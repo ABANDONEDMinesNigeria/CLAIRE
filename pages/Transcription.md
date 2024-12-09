@@ -1,7 +1,7 @@
 ---
 title: Transcripts
-layout: item
-permalink: /item.html
+layout: transcription
+permalink: /transcription.html
 ---
 
 <style>
