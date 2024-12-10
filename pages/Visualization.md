@@ -33,7 +33,7 @@ permalink: /visualizations.html
   <div class="text-content">
     The Interactive Word Cloud presents a frequency analysis of terms extracted from archival records on colonial and native land claims. By transforming historical records into actionable data, the visualization highlights dominant themes and patterns.
     <br>
-    [View Interactive Visualization](/objects/007_CLAIRE_Interactive Word Cloud.html)
+    [View Interactive Visualization](/objects/007_CLAIRE_Interactive_Word_Cloud.html)
   </div>
   <div class="iframe-container">
     <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html"></iframe>
@@ -123,7 +123,7 @@ permalink: /visualizations.html
   <div class="text-content">
     The heat map visualizes the frequency distribution of topics across archival documents, offering a detailed view of thematic density.
     <br>
-    [View Interactive Visualization](/objects/008_CLAIRE_Interactive Topic Frequency Heat Map.html)
+    [View Interactive Visualization](/objects/008_CLAIRE_Interactive_Topic_Frequency_Heat_Map.html)
   </div>
   <div class="iframe-container">
     <iframe src="objects/008_CLAIRE_Interactive_Topic_Frequency_Heat_Map.html"></iframe>
