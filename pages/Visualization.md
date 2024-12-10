@@ -29,15 +29,8 @@ permalink: /visualizations.html
 
 ## Interactive Word Cloud
 
-<div class="visualization-container">
-  <div class="text-content">
-    The Interactive Word Cloud presents a frequency analysis of terms extracted from archival records on colonial and native land claims. By transforming historical records into actionable data, the visualization highlights dominant themes and patterns.
-    <br>
-    [View Interactive Visualization](/objects/007_CLAIRE_Interactive_Word_Cloud.html)
-  </div>
-  <div class="iframe-container">
-    <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html"></iframe>
-  </div>
+<div class="iframe-container" style="margin-top: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
 </div>
 
 ---
