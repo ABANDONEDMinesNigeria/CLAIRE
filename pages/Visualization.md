@@ -49,17 +49,16 @@ permalink: /visualizations.html
 </div>
 
 ---
-
 ## Interactive Topic Model
 
 <div class="visualization-container">
   <div class="text-content">
     This model visualizes latent themes in archival documents using topic modeling (LDA), offering a structured view of major themes such as governance, land management, and socio-economic dynamics.
     <br>
-    [View Interactive Visualization](objects/001_CLAIRE_interactive_topic_model.html)
+    <a href="objects/001_CLAIRE_interactive_topic_model.html" target="_blank">View Interactive Visualization</a>
   </div>
-  <div class="iframe-container">
-    <iframe src="objects/001_CLAIRE_interactive_topic_model.html"></iframe>
+  <div class="iframe-container" style="margin-top: 20px;">
+    <iframe src="objects/001_CLAIRE_interactive_topic_model.html" width="100%" height="800" style="border:none;"></iframe>
   </div>
 </div>
 
@@ -71,10 +70,10 @@ permalink: /visualizations.html
   <div class="text-content">
     The Interactive Topic Table organizes and displays keywords and topics extracted from archival petitions, offering insights into recurring themes in land claims and disputes.
     <br>
-    [View Interactive Visualization](objects/003_CLAIRE_Interactive_Topic_Table.html)
+    <a href="objects/003_CLAIRE_Interactive_Topic_Table.html" target="_blank">View Interactive Visualization</a>
   </div>
-  <div class="iframe-container">
-    <iframe src="objects/003_CLAIRE_Interactive_Topic_Table.html"></iframe>
+  <div class="iframe-container" style="margin-top: 20px;">
+    <iframe src="objects/003_CLAIRE_Interactive_Topic_Table.html" width="100%" height="800" style="border:none;"></iframe>
   </div>
 </div>
 
@@ -86,10 +85,10 @@ permalink: /visualizations.html
   <div class="text-content">
     This network visualization represents relationships between topics, helping users understand the thematic structures and interconnections in archival data.
     <br>
-    [View Interactive Visualization](objects/004_CLAIRE_highlight_relationship_network.html)
+    <a href="objects/004_CLAIRE_highlight_relationship_network.html" target="_blank">View Interactive Visualization</a>
   </div>
-  <div class="iframe-container">
-    <iframe src="objects/004_CLAIRE_highlight_relationship_network.html"></iframe>
+  <div class="iframe-container" style="margin-top: 20px;">
+    <iframe src="objects/004_CLAIRE_highlight_relationship_network.html" width="100%" height="800" style="border:none;"></iframe>
   </div>
 </div>
 
@@ -101,14 +100,12 @@ permalink: /visualizations.html
   <div class="text-content">
     The bar chart compares the frequency of colonial versus native land claims by topic, illustrating patterns of land disputes and governance.
     <br>
-    [View Interactive Visualization](objects/005_CLAIRE_claims_frequency_visualization.html)
+    <a href="objects/005_CLAIRE_claims_frequency_visualization.html" target="_blank">View Interactive Visualization</a>
   </div>
-  <div class="iframe-container">
-    <iframe src="objects/005_CLAIRE_claims_frequency_visualization.html"></iframe>
+  <div class="iframe-container" style="margin-top: 20px;">
+    <iframe src="objects/005_CLAIRE_claims_frequency_visualization.html" width="100%" height="800" style="border:none;"></iframe>
   </div>
 </div>
-
----
 
 ## Topic Frequency Heat Map
 
