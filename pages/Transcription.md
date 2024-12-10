@@ -88,8 +88,6 @@ permalink: /transcription.html
 [View Text File](objects/CLAIRE_033_1940_District_Officer_Response_to_Ngwo_Chiefs_on_contested_Crown_land.txt)  
 **Description**: A colonial officer’s response to Ngwo Chiefs contesting Crown Land claims, reflecting indigenous resistance.
 
-# Historical Documents and Petitions
-
 ### Response to Ngwo Chiefs on Contested Crown Land (1940)
 [View Text File](objects/CLAIRE_033_1940_District_Officer_Response_to_Ngwo_Chiefs_on_contested_Crown_land.txt)  
 **Description**: A colonial officer’s formal response to the Ngwo Chiefs' petitions against the alienation of Crown Land, reflecting indigenous resistance and administrative strategies.
