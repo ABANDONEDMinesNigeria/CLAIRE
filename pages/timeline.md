@@ -7,4 +7,8 @@ permalink: /timeline.html
 
 ## Collection Timeline
 
-[View Text File](objects/CLAIRE_022_1915_Udi_Chiefs_bequeaths_Indigenous_Lands.txt)
+[View Interactive Timeline](/objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html)
+
+<iframe src="/objects/006_CLAIRE_Colonial_Land_Timeline_Red_White.html" width="100%" height="600" style="border:none;"></iframe>
+
+
