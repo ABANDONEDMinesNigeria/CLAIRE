@@ -65,7 +65,7 @@ permalink: /transcription.html
 **Description**: Enugu Chiefs protest against unjust land policies, marking a significant act of resistance in 1922.
 
 ### Anti-Erosion Campaign Report
-[View Text File](objects/CLAIRE_028_1938_Leeming_Report_on_the_Anti-Erosion_Campaign.txt)  
+[View Text File](/objects/CLAIRE_028_1938_Leeming_Report_on_the_Anti_Erosion_Campaign.txt)  
 **Description**: A 1938 report by colonial officer Leeming documenting efforts to combat erosion caused by mining activities in Eastern Nigeria.
 
 ### Boundary Dispute Resolution
