@@ -29,6 +29,8 @@ permalink: /visualizations.html
 
 ## Interactive Word Cloud
 
+The Interactive Word Cloud presents a frequency analysis of key terms extracted from archival records on colonial and native land claims. This visualization emphasizes the most commonly occurring words, offering insights into dominant themes such as governance, land disputes, community engagement, and indigenous rights.
+
 <div class="iframe-container" style="margin-top: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
 </div>
