@@ -314,13 +314,11 @@ Native Land Claims: Indigenous petitions and appeals frequently documented dispu
 
 The visualization also reflected inter-generational debates within indigenous communities. For example, petitions from the 1930s revisited agreements made in 1915/1917, with indigenous leaders challenging the fairness of these earlier agreements and accusing colonial authorities of deceit. This thematic and inter-generational analysis underscored the evolving strategies of resistance and advocacy employed by native populations.
 
-## Topic Frequency Heat Map
+# Data Visualization Code Guide
 
-*Data Visualization Code Guide
+# Fle: CODES_DATAVIZ.md
 
-*Fle: CODES_DATAVIZ.md
-
-*Table of Contents
+# Table of Contents
 
 1.Topic Frequency Heat Map
 2.Claims Frequency Visualization
@@ -329,7 +327,7 @@ The visualization also reflected inter-generational debates within indigenous co
 5.Interactive Timeline
 6.Network Visualization
 
-*1. Topic Frequency Heat Map
+## 1. Topic Frequency Heat Map
 
 Script: scripts/heatmap_generator.py
 
@@ -349,7 +347,7 @@ pandas
 
 plotly
 
-*2. Claims Frequency Visualization
+## 2. Claims Frequency Visualization
 
 Script: scripts/claims_comparison.py
 
@@ -369,7 +367,7 @@ pandas
 
 plotly
 
-*3. Interactive Topic Modeling
+## 3. Interactive Topic Modeling
 
 Script: scripts/topic_modeling.py
 
@@ -389,7 +387,7 @@ scikit-learn
 
 pandas
 
-*4. Interactive Word Cloud
+## 4. Interactive Word Cloud
 
 Script: scripts/frequency_analysis.py
 
@@ -409,7 +407,7 @@ pandas
 
 plotly
 
-*5. Interactive Timeline
+## 5. Interactive Timeline
 
 Script: scripts/timeline_generator.py
 
@@ -427,7 +425,7 @@ Dependencies
 
 Timeline.js (CDN included in script)
 
-*6. Network Visualization
+## 6. Network Visualization
 
 Script: scripts/network_visualization.py
 
@@ -447,7 +445,7 @@ networkx
 
 pyvis
 
-*Setup Instructions
+### Setup Instructions
 
 Ensure you have Python installed (version 3.7+).
 
