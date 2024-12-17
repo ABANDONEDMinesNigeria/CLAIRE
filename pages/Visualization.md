@@ -316,5 +316,102 @@ The visualization also reflected inter-generational debates within indigenous co
 
 ## Topic Frequency Heat Map
 
-[View]</pages/CODES_DATAVIZ.md>
+##Data Visualization Code Guide
+###File: CODES_DATAVIZ.md
 
+###Overview
+This document provides an organized guide to the Python scripts used to generate various data visualizations for the project: "Colonial Land Acquisition and Indigenous Resistance in Enugu, Nigeria (1915-1950)". Each script processes the archival text data and produces interactive outputs such as heat maps, word clouds, topic models, and timelines.
+
+##Table of Contents
+Topic Frequency Heat Map
+Claims Frequency Visualization
+Interactive Topic Modeling
+Interactive Word Cloud
+Interactive Timeline
+Network Visualization
+##1. Topic Frequency Heat Map
+Script: scripts/heatmap_generator.py
+Input: Archival text files located in the data/ directory.
+Output: outputs/topic_frequency_heatmap.html
+Description: Generates an interactive heat map displaying the frequency of key topics (e.g., governance, resistance, petitions) across archival documents.
+How to Run
+bash
+Copy code
+python scripts/heatmap_generator.py
+Dependencies
+pandas
+plotly
+
+###2. Claims Frequency Visualization
+Script: scripts/claims_comparison.py
+Input: Text files in data/, separated as "native_claims.txt" and "colonial_claims.txt".
+Output: outputs/claims_frequency.html
+Description: Produces an interactive bar chart comparing the frequency of topics in colonial claims versus indigenous claims.
+How to Run
+bash
+Copy code
+python scripts/claims_comparison.py
+Dependencies
+pandas
+plotly
+
+###3. Interactive Topic Modeling
+Script: scripts/topic_modeling.py
+Input: Archival text files in data/.
+Output: outputs/topic_model.html
+Description: Uses Latent Dirichlet Allocation (LDA) to identify latent themes within the text and visualizes them interactively.
+How to Run
+bash
+Copy code
+python scripts/topic_modeling.py
+Dependencies
+scikit-learn
+pandas
+
+###4. Interactive Word Cloud
+Script: scripts/frequency_analysis.py
+Input: Archival text files in data/.
+Output: outputs/word_cloud.html
+Description: Creates an interactive word cloud representing the most frequently occurring words in the archival data.
+How to Run
+bash
+Copy code
+python scripts/frequency_analysis.py
+Dependencies
+pandas
+plotly
+
+###5. Interactive Timeline
+Script: scripts/timeline_generator.py
+Input: events_timeline.txt located in data/.
+Output: outputs/event_timeline.html
+Description: Generates an interactive timeline of key historical events related to land acquisition and indigenous resistance.
+How to Run
+bash
+Copy code
+python scripts/timeline_generator.py
+Dependencies
+Timeline.js (CDN included in script)
+
+###6. Network Visualization
+Script: scripts/network_visualization.py
+Input: Archival text files in data/.
+Output: outputs/topic_network.html
+Description: Produces an interactive network graph linking documents to their most frequent keywords, highlighting relationships between key themes.
+How to Run
+bash
+Copy code
+python scripts/network_visualization.py
+Dependencies
+networkx
+pyvis
+Setup Instructions
+Ensure you have Python installed (version 3.7+).
+Install the required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Place the raw text data into the data/ directory.
+Run the desired script(s) as outlined above.
+Outputs
+All visualizations will be saved as interactive HTML files in the outputs/ directory. You can open these files in any web browser.
