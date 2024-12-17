@@ -316,3 +316,23 @@ The visualization also reflected inter-generational debates within indigenous co
 
 ## Topic Frequency Heat Map
 
+import os
+
+def create_html_from_text_files(directory, output_file):
+    text_files = [f for f in os.listdir(directory) if f.endswith('.txt')]
+    file_contents = {f: open(os.path.join(directory, f), 'r').read() for f in text_files}
+
+    html_content = f'''<!DOCTYPE html>
+    <html><head><title>Text Viewer</title></head>
+    <body>
+    <select onchange="document.getElementById('content').textContent=fileContents[this.value]">
+    {"".join(f'<option>{f}</option>' for f in text_files)}
+    </select>
+    <pre id="content">Select a file to view its content</pre>
+    <script>fileContents = {file_contents}</script>
+    </body></html>'''
+    
+    with open(output_file, 'w') as f:
+        f.write(html_content)
+
+
