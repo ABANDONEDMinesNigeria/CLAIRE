@@ -29,6 +29,8 @@ permalink: /visualizations.html
 
 ## Interactive Word Cloud
 
+The Interactive Word Cloud presents a frequency analysis of key terms extracted from archival records on colonial and native land claims. This visualization emphasizes the most commonly occurring words, offering insights into dominant themes such as governance, land disputes, community engagement, and indigenous rights.
+
 <div class="iframe-container" style="margin-top: 20px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe src="objects/007_CLAIRE_Interactive_Word_Cloud.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
 </div>
@@ -124,10 +126,20 @@ permalink: /visualizations.html
 
 ## Interactive Word Cloud
 
-The study of colonial and native land claims through archival records offers a unique opportunity to uncover historical patterns of contestation, negotiation, and resistance. This research outlines the methods and technologies employed to analyze archival documents, culminating in the visualization of the frequency of claims across various topics. The integration of archival transcription, thematic coding, and computational tools like R and Google Colab played a central role in transforming historical records into actionable data, providing insights into the dynamics of land governance during the colonial era.
+The interactive word cloud was generated from 26 transribed text files, it combines frequency analysis with visual and interactive features. Its ability to highlight dominant themes, facilitate deeper exploration, and present data in an engaging manner makes it invaluable for textual analysis. By emphasizing terms like "land," "community," and "petition," the word cloud provides a window into recurring issues of governance, rights, and community advocacy within the dataset. As a methodological tool, it bridges the gap between computational analysis and qualitative inquiry, enabling researchers to uncover meaningful patterns and narratives within large textual corpora.
+
+Data Preparation: The dataset consisted of 26 text files, which were first combined into a single corpus in R. Text preprocessing techniques were applied to ensure consistency and clarity in the analysis. These techniques included converting all text to lowercase, removing punctuation, eliminating stop words (e.g., "and," "of," "the"), and optionally stemming or lemmatizing words to unify variants (e.g., "petition" and "petitions" reduced to "petition"). This preprocessing ensured that only meaningful words remained in the analysis.
+
+Frequency Analysis: Tokenization, the process of splitting text into individual words, was performed on the preprocessed corpus. A frequency count of all unique words was then calculated, highlighting the most commonly occurring terms across the dataset. Words with higher frequencies were marked for prominence in the word cloud.
+
+Visualization in R: The processed data was fed into R libraries such as tm (Text Mining) or wordcloud2 to generate the word cloud. These tools map word frequencies to their size and placement within the visualization—higher frequencies result in larger words. The layout and colors of the word cloud were customized for aesthetic appeal and ease of interpretation.
+
+Interactive Features: To enhance usability, interactive functionality was added using tools like wordcloud2 or the shiny R package. In an interactive word cloud, users can hover over or click on words to view additional information, such as exact word frequencies or their contexts within the dataset. This functionality allows for dynamic exploration of the data.
+
+Functionality of the Interactive Word Cloud
+Interactive word clouds provide an engaging and user-friendly platform for text analysis. Users can explore the dataset beyond visual prominence by interacting with individual terms. For instance, hovering over the term "land" might reveal how many times it appears across the 26 text files, while clicking on it might link to sections of the text where the term is heavily concentrated. This interactivity makes the word cloud not only a summary tool but also a gateway for deeper, document-specific exploration.
 
 ## Colonial Land Policies and Community Responses in Enugu: An Interactive Chronology
-
 
 The interactive timeline titled "Colonial Land Policies and Community Responses in Enugu" offers a detailed exploration of the historical interactions between colonial governance and indigenous communities in Southeastern Nigeria. Utilizing the TimelineJS tool, this chronology sheds light on key events, themes, and developments in land management, colonial policies, and community resistance during the late 19th and early 20th centuries. Through its visual and interactive structure, the timeline provides a nuanced understanding of how colonial policies shaped land governance in Enugu and how local communities responded to these shifts.
 
@@ -302,8 +314,153 @@ Native Land Claims: Indigenous petitions and appeals frequently documented dispu
 
 The visualization also reflected inter-generational debates within indigenous communities. For example, petitions from the 1930s revisited agreements made in 1915/1917, with indigenous leaders challenging the fairness of these earlier agreements and accusing colonial authorities of deceit. This thematic and inter-generational analysis underscored the evolving strategies of resistance and advocacy employed by native populations.
 
-## Topic Frequency Heat Map
+# Data Visualization Code Guide
 
+# Fle: CODES_DATAVIZ.md
 
-[View]</pages/CODES_DATAVIZ.md>
+# Table of Contents
 
+1.Topic Frequency Heat Map
+2.Claims Frequency Visualization
+3.Interactive Topic Modeling
+4.Interactive Word Cloud
+5.Interactive Timeline
+6.Network Visualization
+
+## 1. Topic Frequency Heat Map
+
+Script: scripts/heatmap_generator.py
+
+Input: Archival text files located in the data/ directory.
+
+Output: outputs/topic_frequency_heatmap.html
+
+Description: Generates an interactive heat map displaying the frequency of key topics (e.g., governance, resistance, petitions) across archival documents.
+
+bash
+
+python scripts/heatmap_generator.py
+
+Dependencies
+
+pandas
+
+plotly
+
+## 2. Claims Frequency Visualization
+
+Script: scripts/claims_comparison.py
+
+Input: Text files in data/, separated as "native_claims.txt" and "colonial_claims.txt".
+
+Output: outputs/claims_frequency.html
+
+Description: Produces an interactive bar chart comparing the frequency of topics in colonial claims versus indigenous claims.
+
+bash
+
+python scripts/claims_comparison.py
+
+Dependencies
+
+pandas
+
+plotly
+
+## 3. Interactive Topic Modeling
+
+Script: scripts/topic_modeling.py
+
+Input: Archival text files in data/.
+
+Output: outputs/topic_model.html
+
+Description: Uses Latent Dirichlet Allocation (LDA) to identify latent themes within the text and visualizes them interactively.
+
+bash
+
+python scripts/topic_modeling.py
+
+Dependencies
+
+scikit-learn
+
+pandas
+
+## 4. Interactive Word Cloud
+
+Script: scripts/frequency_analysis.py
+
+Input: Archival text files in data/.
+
+Output: outputs/word_cloud.html
+
+Description: Creates an interactive word cloud representing the most frequently occurring words in the archival data.
+
+bash
+
+python scripts/frequency_analysis.py
+
+Dependencies
+
+pandas
+
+plotly
+
+## 5. Interactive Timeline
+
+Script: scripts/timeline_generator.py
+
+Input: events_timeline.txt located in data/.
+
+Output: outputs/event_timeline.html
+
+Description: Generates an interactive timeline of key historical events related to land acquisition and indigenous resistance.
+
+bash
+
+python scripts/timeline_generator.py
+
+Dependencies
+
+Timeline.js (CDN included in script)
+
+## 6. Network Visualization
+
+Script: scripts/network_visualization.py
+
+Input: Archival text files in data/.
+
+Output: outputs/topic_network.html
+
+Description: Produces an interactive network graph linking documents to their most frequent keywords, highlighting relationships between key themes.
+
+bash
+
+python scripts/network_visualization.py
+
+Dependencies
+
+networkx
+
+pyvis
+
+### Setup Instructions
+
+Ensure you have Python installed (version 3.7+).
+
+Install the required dependencies:
+
+bash
+
+Copy code
+
+pip install -r requirements.txt
+
+Place the raw text data into the data/ directory.
+
+Run the desired script(s) as outlined above.
+
+Outputs
+
+All visualizations will be saved as interactive HTML files in the outputs/ directory. You can open these files in any web browser.
